@@ -1,8 +1,3 @@
-import tkinter as tk
-from tkinter import filedialog, messagebox
-import fitz  # PyMuPDF
-from docx import Document
-from tqdm import tqdm
 class BrailleConverter:
     braille_dict = {
         # Uppercase letters 
