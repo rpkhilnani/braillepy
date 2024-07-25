@@ -48,7 +48,7 @@ class BrailleConverter:
         return ''.join(cls.braille_dict.get(char, char) for char in text)
 
 # Example usage
-if __name__ == "__main__":
-    text = "Hello, World! 123"
-    braille_text = BrailleConverter.text_to_braille(text)
-    print(braille_text)
+#if __name__ == "__main__":
+    #text = "Hello, World! 123"
+    #braille_text = BrailleConverter.text_to_braille(text)
+    #print(braille_text)
