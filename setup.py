@@ -12,7 +12,7 @@ setup(
     author="Roshan Khilnani",
     author_email="rpkhilnani@yahoo.in",
     url="https://github.com/rpkhilnani/braillepy",
-    packages=find_packages(),  # Ensure this finds your package
+    packages=find_packages(), 
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU GPL Version 3",
