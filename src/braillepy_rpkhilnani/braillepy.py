@@ -46,7 +46,29 @@ class BrailleConverter:
         '€': '\u2834', '£': '\u2831', '¥': '\u2839', '₹': '\u2833', '₩': '\u2838', 
         '₪': '\u2835', '₫': '\u2832', '₭': '\u2831', '₮': '\u282D', '₱': '\u283A',
         '₲': '\u2837', '₴': '\u2836', '₵': '\u282B', '₸': '\u2824', '₽': '\u283B',
-        '₿': '\u283F', '¢': '\u2809', '$': '\u2830', '¤': '\u2834'
+        '₿': '\u283F', '¢': '\u2809', '$': '\u2830', '¤': '\u2834',
+
+        # Braille contractions
+        'and': '\u2823', 'for': '\u2824', 'the': '\u2835', 'with': '\u2836', 
+        'ch': '\u2837', 'sh': '\u2838', 'st': '\u2839', 'th': '\u283A', 
+        'wh': '\u283B', 'ou': '\u283C', 'ow': '\u283D', 'ar': '\u283E', 
+        'ing': '\u283F', 'ed': '\u2840', 'en': '\u2841', 'er': '\u2842', 
+        'ou': '\u2843', 'ow': '\u2844', 'st': '\u2845', 'ch': '\u2846', 
+        'gh': '\u2847', 'sh': '\u2848', 'th': '\u2849', 'wh': '\u284A',
+        'ble': '\u284B', 'com': '\u284C', 'dd': '\u284D', 'ea': '\u284E', 
+        'ff': '\u284F', 'gg': '\u2850', 'in': '\u2851', 'st': '\u2852',
+        'ar': '\u2853', 'bb': '\u2854', 'cc': '\u2855', 'dis': '\u2856',
+        'ea': '\u2857', 'ff': '\u2858', 'gg': '\u2859', 'in': '\u285A',
+        'it': '\u285B', 'll': '\u285C', 'more': '\u285D', 'ness': '\u285E',
+        'ound': '\u285F', 'ation': '\u2860', 'ally': '\u2861', 'ance': '\u2862',
+        'ence': '\u2863', 'full': '\u2864', 'less': '\u2865', 'ment': '\u2866',
+        'ness': '\u2867', 'ong': '\u2868', 'ful': '\u2869', 'ness': '\u286A',
+        'rr': '\u286B', 'ship': '\u286C', 'some': '\u286D', 'under': '\u286E',
+        'ver': '\u286F', 'wh': '\u2870', 'will': '\u2871', 'ou': '\u2872',
+        'where': '\u2873', 'ought': '\u2874', 'sh': '\u2875', 'and': '\u2876',
+        'still': '\u2877', 'with': '\u2878', 'gh': '\u2879', 'ing': '\u287A',
+        'ble': '\u287B', 'dis': '\u287C', 'en': '\u287D', 'er': '\u287E', 
+        'ff': '\u287F'
     }
 
     @classmethod
@@ -54,7 +76,7 @@ class BrailleConverter:
         return ''.join(cls.braille_dict.get(char, char) for char in text)
 
 # Example usage
-#if __name__ == "__main__":
-    #text = "Hello, World! 123"
-    #braille_text = BrailleConverter.text_to_braille(text)
-    #print(braille_text)
+if __name__ == "__main__":
+    text = "Hello, World! 123 €£¥"
+    braille_text = BrailleConverter.text_to_braille(text)
+    print(braille_text)
