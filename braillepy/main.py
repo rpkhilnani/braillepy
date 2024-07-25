@@ -76,5 +76,5 @@ def text_to_braille(text):
 # Example usage
 #if __name__ == "__main__":
     # text = "Hello, World! 123 €£¥"
-    # braille_text = BrailleConverter.text_to_braille(text)
+    # braille_text = text_to_braille(text)
     # print(braille_text)
