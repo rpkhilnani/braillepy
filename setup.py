@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="braillepy",
+    name="braillepy.py",
     version="202407-1",
     description="A library to convert text to Braille",
     long_description=open('README.md').read(),
