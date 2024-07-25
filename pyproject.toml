@@ -1,10 +1,22 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Roshan Khilnani"
-version = "2407-1"
-description = "A simple example package"
-authors = [{ name = "Roshan Khilnani", email = "rpkhilnani@yahoo.in" }]
-license = { text = "GPL-3.0 license" }
+name = "braillepy"
+version = "202407-1"
+description = "A library to convert text to Braille."
+authors = [
+    { name = "Roshan Khilnani", email = "rpkhilnani@yahoo.in" }
+]
+license = { text = "GNU GPL Version 3.0" }
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU GPL Version 3.0",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/rpkhilnani/braillepy"
