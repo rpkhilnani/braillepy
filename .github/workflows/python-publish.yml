@@ -10,7 +10,7 @@ name: Publish Python Package
 on:
   push:
     tags:
-      - 'v*.*.*'
+      - '202407-1'
 
 jobs:
   build:
