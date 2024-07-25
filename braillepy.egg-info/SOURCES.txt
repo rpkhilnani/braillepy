@@ -1,8 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-setup.py
-braillepy.egg-info/PKG-INFO
-braillepy.egg-info/SOURCES.txt
-braillepy.egg-info/dependency_links.txt
-braillepy.egg-info/top_level.txt
