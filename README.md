@@ -12,7 +12,7 @@ pip install braillepy
 
 ## Example usage
 
-from braillepy import BrailleConverter
+from braillepy import char_to_braille
 
-result = BrailleConverter.text_to_braille("Hello, World!")
+result = char_to_braille("Hello, World!")
 print(result)

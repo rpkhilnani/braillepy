@@ -1,0 +1,8 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "braillepy"
+version = "202407-1"
+description = "A Python package for Braille-related functionality"
