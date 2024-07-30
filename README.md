@@ -16,3 +16,9 @@ from braillepy import char_to_braille
 
 result = char_to_braille("Hello, World!")
 print(result)
+
+from braillepy import words_to_braille
+words_to_braille
+
+result = words_to_braille("Hello, World!")
+print(result)
