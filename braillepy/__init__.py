@@ -1,4 +1,4 @@
-__version__ = "202407-1"
+__version__ = "202501-1"
 
 from main import char_to_braille, words_to_braille
 """
